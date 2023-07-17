@@ -1,5 +1,5 @@
 body{
-    box-sizing: border-box;
+    
     width: 1400px;
     height: 3006px;
     padding: 80px;
@@ -8,12 +8,20 @@ body{
 header{
     display:flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 30px;
 }
 
 .nav-links{
-    display: flex;
+    display: inline-flex;
     gap: 40px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-links a{
+    color: white;
 }
 
 #one{
@@ -25,6 +33,7 @@ header{
     width: 1400px;
     height: 800px;
     flex-shrink: 0;
+    color: #FFF;
 }
 
 .main-part{
@@ -33,27 +42,45 @@ header{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 100vh;
+    height: 120vh;
+    text-align: center;
+    font-size: 22px;
 }
 
 .main button{
-    width: 168px;
+    background-color: #FF6565;
+    color: white;
+    width: 162px;
     border-radius: 30px;
+    height: 44px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
 }
 
 .main-two{
+    
+    background-color: white;
+    width: 1400px;
+    height: 700px;
+}
+
+#main-two{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    width: 1400px;
-    height: 3006px;
+    justify-content: center;
+    gap: 60px;
+    height: 100vh;
+}
+
+.what{
+    height: 2vh;
 }
 
 #logo{
     display: flex;
     gap: 70px;
     justify-content: center;
+    align-items: center;
 }
 
 .logo-one{
@@ -62,11 +89,33 @@ header{
     align-items: center;
 }
 
+.logo-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-three{
+    background-image: url(images/headphones_hero_2.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1400px;
+    height: 650px;
+    flex-shrink: 0;
 }
 
 .main-four{
@@ -74,6 +123,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    width: 1400px;
+    height: 700px;
 }
 
 #fillup{
@@ -112,3 +164,21 @@ textarea{
     border-radius: 30px;   
 }
 
+footer{
+    background-image: url(images/footer_background.png);
+    width: 1400px;
+    height: 249px;
+    flex-shrink: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+}
