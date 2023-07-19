@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-
     @media (max-width: 480px) {
-
 }
 
 body{
@@ -87,4 +85,57 @@ button:hover,
 button:active {
   opacity: 0.9;
   color: #FF6565;
+}
+
+
+
+.main-two{
+    background-color: white;
+    width: 100%vw;
+}
+
+#main-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 100vh;
+    text-align: center;
+}
+
+.what{
+    height: 2vh;
+}
+
+#logo{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
