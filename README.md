@@ -1,4 +1,4 @@
-* Headphone Webpage *
+ Headphone Webpage 
 
 Description
 The Headphone Webpage is a responsive website dedicated to showcasing a variety of headphones available for purchase. The webpage provides information about different headphone models, their features, specifications, and pricing. The goal of this project is to create an attractive and user-friendly interface for customers to explore and purchase headphones.
@@ -8,10 +8,7 @@ You can view the live demo of the Headphone Webpage at https://www.headphones.co
 
 Features
 Responsive design: The webpage adapts to different screen sizes and devices, providing an optimal viewing experience on desktops, tablets, and smartphones.
-Product display: Showcases a range of headphones with images, descriptions, and pricing details.
-Search functionality: Allows users to search for specific headphone models or features.
-Shopping cart: Enables customers to add headphones to their cart and proceed to checkout.
-User reviews and ratings: Displays customer reviews and ratings for each headphone model.
+
 Contact form: Includes a contact form for inquiries and feedback.
 
 Technologies Used
